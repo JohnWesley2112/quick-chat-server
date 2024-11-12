@@ -8,7 +8,7 @@
 // module.exports = app;
 
 
-require('dotenv').config({ path: '../.env' });
+require('dotenv').config();
 const dbConfig = require('../config/dbConfig');
 const app = require('../app');
 
